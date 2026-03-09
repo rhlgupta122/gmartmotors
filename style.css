@@ -294,7 +294,7 @@ a {
   position: relative;
   overflow: clip;
   background:
-    linear-gradient(90deg, rgba(15, 27, 51, 0.72) 0%, rgba(15, 27, 51, 0.58) 28%, rgba(15, 27, 51, 0.18) 58%, rgba(15, 27, 51, 0.05) 100%),
+    linear-gradient(90deg, rgba(15, 27, 51, 0.84) 0%, rgba(15, 27, 51, 0.72) 30%, rgba(15, 27, 51, 0.3) 58%, rgba(15, 27, 51, 0.08) 100%),
     url('./images/workshop-hero.webp') center/cover no-repeat;
   padding-block: clamp(var(--space-10), 6vw, var(--space-16)) clamp(var(--space-12), 8vw, var(--space-20));
 }
@@ -333,6 +333,17 @@ a {
   max-width: 40rem;
 }
 
+.hero-intro-shell {
+  margin-top: var(--space-4);
+  max-width: 37rem;
+  padding: var(--space-4) var(--space-4);
+  border-radius: var(--radius-lg);
+  background: linear-gradient(180deg, rgba(10, 18, 36, 0.88), rgba(12, 22, 42, 0.76));
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 12px 28px rgba(7, 14, 29, 0.28);
+  backdrop-filter: blur(6px);
+}
+
 .hero-copy h1 {
   margin-top: var(--space-4);
   font-family: var(--font-display);
@@ -347,12 +358,12 @@ a {
 }
 
 .hero-intro {
-  margin-top: var(--space-4);
+  margin-top: 0;
   font-size: clamp(1rem, 0.98rem + 0.2vw, 1.08rem);
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.96);
   max-width: 52ch;
   line-height: 1.7;
-  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.18);
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.14);
 }
 
 .hero-actions {
@@ -369,21 +380,22 @@ a {
 }
 
 .hero-points li {
-  display: flex;
-  align-items: baseline;
-  gap: var(--space-3);
-  padding: var(--space-3) var(--space-4);
-  background: rgba(255, 255, 255, 0.92);
-  border: 1px solid rgba(255, 255, 255, 0.65);
+  display: grid;
+  align-content: start;
+  gap: var(--space-2);
+  min-height: 8.3rem;
+  padding: var(--space-4);
+  background: rgba(255, 255, 255, 0.97);
+  border: 1px solid rgba(255, 255, 255, 0.78);
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-xs);
+  box-shadow: var(--shadow-md);
 }
 
 .hero-points strong {
   font-family: var(--font-display);
   font-size: var(--text-sm);
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-navy);
   white-space: nowrap;
@@ -392,6 +404,7 @@ a {
 .hero-points span {
   font-size: var(--text-sm);
   color: var(--color-text-muted);
+  line-height: 1.55;
 }
 
 /* Hero side panel */
@@ -1031,7 +1044,10 @@ a {
 /* --- RESPONSIVE --- */
 
 @media (min-width: 700px) {
-  .hero-points,
+  .hero-points {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .quick-strip {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1115,9 +1131,12 @@ a {
     max-width: 9ch;
   }
 
-  .hero-points-compact li {
-    flex-direction: row;
-    align-items: center;
+  .hero-intro-shell {
+    padding: var(--space-3) var(--space-4);
+  }
+
+  .hero-points li {
+    min-height: auto;
   }
 
   .contact-item {
