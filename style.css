@@ -807,6 +807,77 @@ a {
   border-color: rgba(255, 255, 255, 0.45);
 }
 
+/* --- LOCAL SEO / SERVICE AREA --- */
+
+.local-seo-section,
+.faq-section {
+  background: var(--color-surface);
+}
+
+.local-seo-grid {
+  display: grid;
+  gap: var(--space-6);
+}
+
+.local-seo-panel,
+.faq-card {
+  padding: var(--space-6);
+  border-radius: var(--radius-lg);
+  background: var(--color-white);
+  border: 1px solid var(--color-border-light);
+  box-shadow: var(--shadow-card);
+}
+
+.area-chips {
+  margin-bottom: var(--space-5);
+}
+
+.local-seo-list {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.local-seo-list li {
+  position: relative;
+  padding-left: 1.3rem;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.65;
+}
+
+.local-seo-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.58rem;
+  width: 0.45rem;
+  height: 0.45rem;
+  border-radius: 50%;
+  background: var(--color-primary);
+}
+
+.faq-grid {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.faq-card h3 {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  line-height: 1.08;
+  color: var(--color-navy);
+}
+
+.faq-card p {
+  margin-top: var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
 /* --- CONTACT --- */
 
 .contact-section {
@@ -1069,6 +1140,15 @@ a {
 
   .brands-row {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .local-seo-grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+  }
+
+  .faq-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
