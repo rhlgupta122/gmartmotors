@@ -1,0 +1,11 @@
+QA inventory for tough redesign
+- Claim: rugged industrial single-page look with strong dark navy and gold palette
+- Claim: actual round truck logo is used in header, hero, and footer
+- Claim: WhatsApp is primary CTA and call is secondary
+- Claim: concise sections: hero, quick strip, services, why GMART, fleet offer, contact
+- Claim: mobile-first with sticky mobile bottom bar
+- Claim: essential info preserved: business name, tagline, location, contacts, services, trusted brands, fleet offer, contact/location
+- Control: mobile menu opens/closes
+- Control: hero WhatsApp CTA visible on desktop and mobile
+- Control: sticky mobile bottom bar visible on mobile only
+- Visual checks: no horizontal overflow at desktop or mobile; logo renders correctly; CTA hierarchy is clear

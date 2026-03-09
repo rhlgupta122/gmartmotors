@@ -1,0 +1,9 @@
+GMART MOTORS tough redesign summary
+- Rebuilt the site into a tighter single-page layout with five concise conversion-focused sections.
+- Shifted the visual language to rugged dark navy, steel, and orange-gold with heavy condensed typography.
+- Made WhatsApp the primary CTA in the header, hero, fleet offer, contact block, and sticky mobile bar.
+- Preserved essential business info: business name, tagline, location, contacts, services, trusted brands, fleet offer, and contact/location details.
+- Replaced the placeholder brand mark with actual cropped round truck logo assets from the supplied pamphlet artwork.
+- Saved QA screenshots:
+  - qa/home-tough-redesign-desktop.png
+  - qa/home-tough-redesign-mobile.png

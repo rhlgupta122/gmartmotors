@@ -1,1 +1,6 @@
-Replace the inline SVG logo in index.html and favicon.svg with a future real brand asset if desired. If you add a raster logo, save it as images/logo.png and update the header, social image, and favicon references accordingly.
+Using actual cropped round truck logo from the supplied GMART pamphlet artwork.
+Files:
+- images/gmart-logo-round.png
+- images/gmart-logo-round.webp
+- images/gmart-logo-icon.png
+These assets are used in the header, hero, footer, SEO image, and favicon.

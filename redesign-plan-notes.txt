@@ -1,0 +1,7 @@
+Industrial redesign plan
+- Use actual round GMART MOTORS truck logo cropped from provided pamphlet artwork.
+- Collapse experience into 5 concise sections: hero, services, why GMART, brands/fleet offer, contact.
+- Make WhatsApp the dominant CTA in hero, sticky mobile bar, and contact area. Call remains secondary.
+- Shift visual system to dark navy / steel / charcoal with orange-gold accents, heavy typography, rugged separators, industrial cards.
+- Replace brochure-like copy blocks with tighter scan-first bullets, stat strips, and service chips.
+- Preserve business essentials: name, tagline, location, contacts, services, trusted brands, fleet offer, contact and location.
