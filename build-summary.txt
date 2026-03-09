@@ -1,0 +1,15 @@
+Built GMART MOTORS as a polished single-page static site in /home/user/workspace/gmartmotors/ with: index.html, base.css, style.css, script.js, favicon.svg, favicon.ico, robots.txt, sitemap.xml, README.md, images/og-gmartmotors.svg, images/logo-placeholder-note.txt, and QA screenshots.
+
+Assumptions made:
+- The brief referenced About Us copy without providing final text, so original workshop-appropriate copy was written.
+- OEM and supplier logos were represented as clean neutral text cards instead of copied trademark logo files.
+- Placeholder canonical/OG URLs were left in place for the future GitHub Pages repo URL.
+
+QA notes:
+- Design test page was created for token validation and then removed.
+- JS lint passed.
+- Screenshots were saved under /home/user/workspace/gmartmotors/qa/ for review; full-page captures showed very large blank regions due to lazy/reveal behavior in the screenshot flow, so targeted viewport QA was additionally attempted during review.
+
+Deployment readiness:
+- The site structure is suitable for GitHub Pages from the repo root/main branch.
+- Before production publishing, update canonical, sitemap, robots, and OG URLs from username.github.io placeholders to the actual GitHub Pages URL.

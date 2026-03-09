@@ -1,0 +1,39 @@
+GMART MOTORS revision summary
+
+What changed
+- Removed rendering blockers that caused full-page screenshots to show blank sections by eliminating content-visibility:auto on cards and disabling hidden-on-load reveal states in CSS; reveal classes now render immediately and no sections start at opacity 0.
+- Kept motion subtle without breaking rendering by preserving only safe transitions and scroll/header behavior.
+- Updated the hero description to align more closely with the brief and added clear call + WhatsApp actions for both Rajiv Gupta and Kashish Gupta.
+- Revised the About Us copy to stay focused on commercial vehicle spare parts, accessories, and workshop support without extra fabricated claims.
+- Kept the required Our Services labels from the brief, including Comani Service exactly as written.
+- Reworked the Why Choose section so the table heading and columns use “Local Mechanics vs GMART MOTORS” formatting and the comparison content is cleaner and more brief-aligned.
+- Preserved the four requested benefit badges: Less Breakdown, Better Mileage, More Road Time, Higher Resale Value.
+- Revised the Fleet Owners Special Offer with the exact offer phrasing “First Service BILKUL FREE or ₹500 OFF per truck” and clearer blocks for benefits, service options, who qualifies, terms, and CTA.
+- Expanded contact details so both phone numbers now have explicit tel links and explicit WhatsApp links in the contact section.
+- Kept the dark navy and gold brochure-style visual system and ensured the mobile sticky CTA bar remains visible on mobile only.
+- Removed extra structured-data fields that were not grounded in the brief, including geo coordinates and price range.
+- Preserved relative paths and simple static-file structure for GitHub Pages compatibility.
+
+QA completed
+- Desktop and mobile QA rerun locally.
+- Verified no reveal elements render hidden on load.
+- Verified both hero and contact areas expose tel and WhatsApp links.
+- Verified mobile menu open/close flow works and closes after section navigation.
+- Verified mobile horizontal overflow was fixed.
+- Fresh screenshots saved under /home/user/workspace/gmartmotors/qa/:
+  - home-desktop-revised.png
+  - hero-desktop-revised.png
+  - services-desktop-revised.png
+  - offer-desktop-revised.png
+  - contact-desktop-revised.png
+  - why-us-desktop-revised.png
+  - home-mobile-revised.png
+  - hero-mobile-revised.png
+  - services-mobile-revised.png
+  - offer-mobile-revised.png
+  - contact-mobile-revised.png
+  - why-us-mobile-revised.png
+
+Publishing readiness
+- Ready for final GitHub publishing.
+- Remaining production step: replace placeholder GitHub Pages URLs in index.html, robots.txt, and sitemap.xml with the actual repo URL after publishing.

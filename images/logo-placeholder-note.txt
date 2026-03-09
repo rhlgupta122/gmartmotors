@@ -1,0 +1,1 @@
+Replace the inline SVG logo in index.html and favicon.svg with a future real brand asset if desired. If you add a raster logo, save it as images/logo.png and update the header, social image, and favicon references accordingly.
