@@ -30,7 +30,7 @@ serve . -l 3000 --single
 6. Save and wait for GitHub Pages to publish.
 7. The site metadata is already set for the expected Pages URL:
    - `https://rhlgupta122.github.io/gmartmotors/`
-   - `https://rhlgupta122.github.io/gmartotors/images/og-gmartmotors.svg`
+   - `https://rhlgupta122.github.io/gmartmotors/images/og-gmartmotors.svg`
 8. If you publish under a different repository name, update `index.html`, `robots.txt`, and `sitemap.xml` accordingly.
 
 ## Logo replacement note
