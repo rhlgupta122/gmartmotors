@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Workshop bay placeholder">
+  <rect width="800" height="600" fill="#1a2b4a"/>
+  <rect x="1" y="1" width="798" height="598" fill="none" stroke="#d4880a" stroke-width="2" stroke-dasharray="10 8" opacity="0.5"/>
+  <path d="M170 360h60l34-66h108l32 66h44" fill="none" stroke="#fff7ea" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <circle cx="246" cy="378" r="20" fill="none" stroke="#d4880a" stroke-width="9"/>
+  <circle cx="372" cy="378" r="20" fill="none" stroke="#d4880a" stroke-width="9"/>
+  <text x="400" y="270" fill="#ffffff" font-size="44" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle">Workshop Bay</text>
+  <text x="400" y="470" fill="#9fb0cc" font-size="22" font-family="Arial, sans-serif" text-anchor="middle">Replace with a real photo (images/gallery-1.jpg)</text>
+</svg>
