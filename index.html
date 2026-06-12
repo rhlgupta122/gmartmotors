@@ -153,26 +153,36 @@
 
   <!-- HERO -->
   <section class="hero" id="top">
-    <div class="container hero-shell reveal">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-photo"></div>
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+      <div class="hero-grid-pattern"></div>
+    </div>
+    <div class="container hero-shell">
       <div class="hero-grid">
         <div class="hero-copy">
-          <span class="kicker">Yellampet workshop serving Hyderabad, Medchal and Kompally</span>
-          <h1>Truck workshop, spare parts and fleet support.</h1>
-          <div class="hero-intro-shell">
-            <p class="hero-intro">GMART MOTORS supports commercial vehicle owners, transporters, and fleet operators with repairs, spare parts, inspection, and service support from Yellampet for Hyderabad, Medchal, Kompally, and nearby NH44 routes.</p>
+          <span class="kicker" data-hero-seq>Yellampet workshop serving Hyderabad, Medchal and Kompally</span>
+          <h1 data-hero-seq>Truck workshop, <span class="hero-accent">spare parts</span> and fleet support.</h1>
+          <p class="hero-intro" data-hero-seq>GMART MOTORS supports commercial vehicle owners, transporters, and fleet operators with repairs, spare parts, inspection, and service support from Yellampet for Hyderabad, Medchal, Kompally, and nearby NH44 routes.</p>
+          <div class="hero-actions" data-hero-seq>
+            <a class="button button-primary" href="https://wa.me/919810326817?text=Hello%20GMART%20MOTORS,%20I%20need%20commercial%20vehicle%20parts%20or%20workshop%20support." target="_blank" rel="noopener noreferrer">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.2 14.2c-.2.6-1.2 1.2-1.7 1.2-.4.1-1 .1-1.6-.1a14 14 0 0 1-1.5-.5 11.6 11.6 0 0 1-4.4-3.9 5 5 0 0 1-1-2.7c0-1.3.7-2 1-2.2a1 1 0 0 1 .7-.3h.5c.2 0 .4 0 .6.4l.8 2c.1.2.1.4 0 .6l-.4.6-.4.4c-.1.2-.3.3-.1.6a8.5 8.5 0 0 0 1.6 2 7.8 7.8 0 0 0 2.3 1.4c.3.2.5.1.6 0l1-1.1c.2-.3.4-.2.7-.1l1.8.9c.3.1.5.2.5.3.1.1.1.4-.1 1Z"/></svg>
+              WhatsApp Kashish Gupta
+            </a>
+            <a class="button button-secondary" href="tel:+919810326817">
+              <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Call 9810326817
+            </a>
           </div>
-          <div class="hero-actions">
-            <a class="button button-primary" href="https://wa.me/919810326817?text=Hello%20GMART%20MOTORS,%20I%20need%20commercial%20vehicle%20parts%20or%20workshop%20support." target="_blank" rel="noopener noreferrer">WhatsApp Kashish Gupta</a>
-            <a class="button button-secondary" href="tel:+919810326817">Call 9810326817</a>
-          </div>
-          <ul class="hero-points hero-points-compact" role="list">
+          <ul class="hero-points" role="list" data-hero-seq>
             <li><strong>Location</strong><span>Yellampet, NH44 Road, Near IndianOil Petrol Pump</span></li>
             <li><strong>Hours</strong><span>All days · 8 AM to 8 PM</span></li>
             <li><strong>Focus</strong><span>Workshop repairs, parts and fleet support</span></li>
           </ul>
         </div>
 
-        <aside class="hero-side" aria-label="Brand and workshop information">
+        <aside class="hero-side" aria-label="Brand and workshop information" data-hero-seq>
           <div class="hero-brand-card panel">
             <img src="./images/gmart-logo-round.png" width="160" height="160" alt="GMART MOTORS truck logo">
             <div>
@@ -198,7 +208,7 @@
 
   <!-- QUICK STRIP -->
   <section class="section strip-section">
-    <div class="container quick-strip reveal">
+    <div class="container quick-strip reveal" data-reveal-group>
       <article>
         <span>Fast response</span>
         <strong>Quick parts checks and workshop booking on WhatsApp</strong>
@@ -216,21 +226,21 @@
 
   <!-- TRUST STATS -->
   <section class="section stats-section" aria-label="GMART MOTORS track record">
-    <div class="container stats-grid reveal">
+    <div class="container stats-grid reveal" data-reveal-group>
       <article class="stat-card">
-        <strong data-stat>12+</strong>
+        <strong data-stat data-counter="12" data-suffix="+">12+</strong>
         <span>Years serving commercial vehicles</span>
       </article>
       <article class="stat-card">
-        <strong data-stat>5,000+</strong>
+        <strong data-stat data-counter="5000" data-suffix="+">5,000+</strong>
         <span>Trucks &amp; commercial vehicles serviced</span>
       </article>
       <article class="stat-card">
-        <strong data-stat>150+</strong>
+        <strong data-stat data-counter="150" data-suffix="+">150+</strong>
         <span>Fleet &amp; transport operators supported</span>
       </article>
       <article class="stat-card">
-        <strong data-stat>4.8&#9733;</strong>
+        <strong data-stat data-counter="4.8" data-decimals="1" data-suffix="&#9733;">4.8&#9733;</strong>
         <span>Average customer rating</span>
       </article>
     </div>
@@ -244,13 +254,37 @@
         <h2>What GMART handles</h2>
         <p class="section-copy">A concise service stack for daily running problems, repair work, inspection, and trusted commercial-vehicle parts support.</p>
       </div>
-      <div class="services-grid">
-        <article class="service-card reveal"><span class="service-index">01</span><h3>Engine repair</h3><p>Inspection-led support for power loss, noise, smoke, overheating, and running issues.</p></article>
-        <article class="service-card reveal"><span class="service-index">02</span><h3>Gear box &amp; clutch</h3><p>Transmission and clutch work for hard shifts, wear, drivability, and load-duty performance.</p></article>
-        <article class="service-card reveal"><span class="service-index">03</span><h3>ECM diagnostics</h3><p>Clearer fault tracing before major repair work starts.</p></article>
-        <article class="service-card reveal"><span class="service-index">04</span><h3>20+ point inspection</h3><p>Professional checks that help reduce repeat breakdowns and blind part replacement.</p></article>
-        <article class="service-card reveal"><span class="service-index">05</span><h3>Greasing &amp; lubrication</h3><p>Routine maintenance support built for uptime and lower wear.</p></article>
-        <article class="service-card reveal"><span class="service-index">06</span><h3>Spare parts counter</h3><p>Commercial vehicle parts and accessories for working fleets and owner-drivers.</p></article>
+      <div class="services-grid reveal" data-reveal-group>
+        <article class="service-card">
+          <span class="service-index" aria-hidden="true">01</span>
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14.7 6.3a4.5 4.5 0 0 0-5.9 5.4L3 17.5V21h3.5l5.8-5.8a4.5 4.5 0 0 0 5.4-5.9l-2.9 2.9-2.5-.5-.5-2.5 2.9-2.9Z" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <h3>Engine repair</h3><p>Inspection-led support for power loss, noise, smoke, overheating, and running issues.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-index" aria-hidden="true">02</span>
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1" stroke-linecap="round"/></svg></span>
+          <h3>Gear box &amp; clutch</h3><p>Transmission and clutch work for hard shifts, wear, drivability, and load-duty performance.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-index" aria-hidden="true">03</span>
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="6" y="6" width="12" height="12" rx="2"/><path d="M9 1.5v3M15 1.5v3M9 19.5v3M15 19.5v3M1.5 9h3M1.5 15h3M19.5 9h3M19.5 15h3" stroke-linecap="round"/></svg></span>
+          <h3>ECM diagnostics</h3><p>Clearer fault tracing before major repair work starts.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-index" aria-hidden="true">04</span>
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="5" y="3.5" width="14" height="17" rx="2"/><path d="M9 3.5V6h6V3.5M9 11l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <h3>20+ point inspection</h3><p>Professional checks that help reduce repeat breakdowns and blind part replacement.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-index" aria-hidden="true">05</span>
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11Z" stroke-linejoin="round"/><path d="M9.5 14a2.5 2.5 0 0 0 2.5 2.5" stroke-linecap="round"/></svg></span>
+          <h3>Greasing &amp; lubrication</h3><p>Routine maintenance support built for uptime and lower wear.</p>
+        </article>
+        <article class="service-card">
+          <span class="service-index" aria-hidden="true">06</span>
+          <span class="service-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 8.5 12 4 3 8.5v7L12 20l9-4.5v-7Z" stroke-linejoin="round"/><path d="M3 8.5 12 13l9-4.5M12 13v7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <h3>Spare parts counter</h3><p>Commercial vehicle parts and accessories for working fleets and owner-drivers.</p>
+        </article>
       </div>
     </div>
   </section>
@@ -263,7 +297,7 @@
         <h2>Less guesswork. Better fit. Stronger accountability.</h2>
         <p class="section-copy">Clear workshop process, better part-fit confidence, and a stronger service record for working commercial vehicles.</p>
       </div>
-      <div class="advantage-list reveal">
+      <div class="advantage-list reveal" data-reveal-group>
         <article class="advantage-card"><strong>Proper diagnosis</strong><p>Modern-tool diagnosis before costly decisions.</p></article>
         <article class="advantage-card"><strong>20+ point inspection</strong><p>Structured checks instead of trial-and-error repair.</p></article>
         <article class="advantage-card"><strong>Trusted spare parts</strong><p>Commercial-vehicle-focused sourcing and fit support.</p></article>
@@ -296,7 +330,7 @@
         <h2>A look at GMART MOTORS</h2>
         <p class="section-copy">Workshop bays, repair work, the spare parts counter, and the team that keeps commercial vehicles on the road.</p>
       </div>
-      <div class="gallery-grid reveal">
+      <div class="gallery-grid reveal" data-reveal-group>
         <figure class="gallery-item"><img src="./images/gallery-1.svg" width="800" height="600" loading="lazy" alt="GMART MOTORS workshop service bay"><figcaption>Service bays</figcaption></figure>
         <figure class="gallery-item"><img src="./images/gallery-2.svg" width="800" height="600" loading="lazy" alt="Commercial vehicle engine and repair work at GMART MOTORS"><figcaption>Engine &amp; repair work</figcaption></figure>
         <figure class="gallery-item"><img src="./images/gallery-3.svg" width="800" height="600" loading="lazy" alt="GMART MOTORS spare parts counter"><figcaption>Spare parts counter</figcaption></figure>
@@ -316,7 +350,7 @@
           <span class="rating-text"><strong>4.8 / 5</strong> average from 60+ customers</span>
         </div>
       </div>
-      <div class="reviews-grid reveal">
+      <div class="reviews-grid reveal" data-reveal-group>
         <figure class="review-card">
           <div class="review-stars" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
           <blockquote>Proper diagnosis before touching the truck. They found the actual fault instead of replacing parts blindly, and the estimate matched the final bill.</blockquote>
@@ -344,7 +378,7 @@
         <h2>Talk to the people who run the workshop</h2>
         <p class="section-copy">No call centre. You deal directly with the people responsible for your vehicle and your parts.</p>
       </div>
-      <div class="team-grid reveal">
+      <div class="team-grid reveal" data-reveal-group>
         <article class="team-card">
           <span class="team-avatar" aria-hidden="true">KG</span>
           <div class="team-info">
@@ -379,7 +413,7 @@
         <h2>Trusted vehicle and parts names</h2>
         <p class="section-copy">Workshop support and genuine spare parts for the commercial vehicle brands that Indian fleets run on.</p>
       </div>
-      <div class="brands-row reveal">
+      <div class="brands-row reveal" data-reveal-group>
         <div class="brands-group">
           <h3>Vehicle Brands</h3>
           <div class="brand-chips" aria-label="Vehicle brands list">
@@ -463,7 +497,7 @@
         <h2>Frequently asked by truck owners and fleet operators</h2>
         <p class="section-copy">Quick answers for customers searching for a commercial vehicle workshop in Hyderabad, Medchal, Kompally, and nearby areas.</p>
       </div>
-      <div class="faq-grid reveal">
+      <div class="faq-grid reveal" data-reveal-group>
         <article class="faq-card">
           <h3>Do you handle commercial vehicle workshop jobs for customers coming from Medchal and Kompally?</h3>
           <p>Yes. GMART MOTORS serves truck owners, transporters, and fleet operators coming from Yellampet, Medchal, Kompally, Hyderabad, and nearby transport routes.</p>
@@ -532,6 +566,10 @@
       <a href="#faq">FAQ</a>
       <a href="#contact">Contact</a>
     </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>Yellampet, NH44 Road, Near IndianOil Petrol Pump, Hyderabad, Telangana &bull; Open all days, 8 AM to 8 PM</p>
+    <p>&copy; <span data-year>2026</span> GMART MOTORS. All rights reserved.</p>
   </div>
 </footer>
 
